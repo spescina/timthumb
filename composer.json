@@ -1,0 +1,21 @@
+{
+    "name": "spescina/timthumb",
+    "keywords": ["laravel", "image", "proxy", "resizer", "crop"],
+    "description": "An image proxy for Laravel",
+    "authors": [
+        {
+            "name": "Simone Pescina",
+            "email": "s.pescina@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Spescina\\Timthumb": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
