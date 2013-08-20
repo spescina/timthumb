@@ -14,7 +14,7 @@ Once it's installed, you have to register the service provider. In `app/config/a
 ```
 If you want in `app/config/app.php` add the following line of code to the `alias` array
 ```php
-'Timthumb' => 'Spescina\Timthumb\Seo'
+'Timthumb' => 'Spescina\Timthumb\Facades\Timthumb'
 ```
 Then, publish the config files with `php artisan config:publish spescina/timthumb`.
 
