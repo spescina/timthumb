@@ -18,6 +18,8 @@ If you want in `app/config/app.php` add the following line of code to the `alias
 ```
 Then, publish the config files with `php artisan config:publish spescina/timthumb`.
 
+Then, publish the asset files with `php artisan asset:publish spescina/timthumb`.
+
 ## Usage
 Generate the image link with the following line of code
 ```php
