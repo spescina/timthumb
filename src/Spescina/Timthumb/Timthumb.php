@@ -2,7 +2,14 @@
 
 use Config;
 
-define ('ERROR_IMAGE', Config::get('timthumb::error_image'));
+define ('DEBUG_ON', Config::get('timthumb::debug_on'));
+define ('DEBUG_LEVEL', Config::get('timthumb::debug_level'));
+define ('FILE_CACHE_ENABLED', Config::get('timthumb::file_cache_enabled'));
+define ('FILE_CACHE_DIRECTORY', Config::get('timthumb::file_cache_directory'));
+define ('NOT_FOUND_IMAGE', Config::get('timthumb::not_found_image'));
+define ('ERROR_IMAGE',  Config::get('timthumb::error_image'));
+define ('PNG_IS_TRANSPARENT', Config::get('timthumb::png_is_transparent'));
+
 
 require_once("TimthumbExt.php");
 
