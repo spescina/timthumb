@@ -4,7 +4,7 @@ An image proxy for Laravel
 ## Installation
 To install __Timthumb__ as a Composer package to be used with Laravel 4, simply add this to your `composer.json`:
 ```javascript
-"spescina/timthumb": "dev-master"
+"spescina/timthumb": "1.0.x"
 ```
 and run composer update.
 
