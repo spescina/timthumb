@@ -1,5 +1,5 @@
-# This project is not under development anymore.
-I think that this feature has to be left outside the framework. I don't like that Laravel has to be booted upon each image request. I'm currently using TimThumb but in standalone mode. I use a Laravel helper instead that created image links for me.
+# This project is not under development anymore. Check spescina/imgproxy instead
+I think that this feature has to be left outside the framework. I don't like that Laravel has to be booted upon each image request.
 
 
 
